@@ -1,7 +1,7 @@
-
 body {
+height : 100vh;
+font-family: "roboto", sans-serif;
 
-  height : 100vh;
 }
 
 
@@ -13,7 +13,6 @@ body {
 }
 
 .navbar ul {
-font-family: "roboto", sans-serif;
 font-size: 14px;
 display : flex ;
 list-style: none ;
@@ -38,7 +37,7 @@ align-items : center;
   padding: 5px 12px;
   text-align: center;
   text-decoration: none;
-  font-weight: bold ;
+  font-weight: bold;
 }
 
 /* main */
@@ -46,7 +45,7 @@ align-items : center;
 .main {
    display : flex ;
    flex-direction: column;
-   height : 580px;
+   height : 550px;
    align-items: center;
    justify-content: center;
 }
@@ -78,9 +77,9 @@ border-radius: 4px;
 font-size: 13px ;
 width : 150px;
 height : 36px;
-font-family: "roboto", sans-serif;
 color: #5F6368;
 }
+
 .footerbar {
   background-color: #F2F2F2 ; 
   color: rgba(0,0,0,.54);
@@ -88,14 +87,21 @@ color: #5F6368;
   font-family: monospace;
   display: flex;
   flex-direction: column;
+  border-top: 0.1px solid #E4E4E4;
 }
 
 .pays{
-  border-top: 0.1px solid #E4E4E4;
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  
   border-bottom: 0.1px solid #E4E4E4;
   display: flex;
   justify-content: flex-start;
-  height: 40px;
+  align-items: center;
+  text-align: left;
+  height: 35px;
+  margin: 0px 5px;
+  padding: 5px;
 }
 
 
@@ -103,6 +109,8 @@ color: #5F6368;
   height: 40px;
   display: flex;
   justify-content: space-between;
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
 }
 
 .footer-left {
@@ -118,11 +126,14 @@ color: #5F6368;
 .footerbar ul {
   display: flex;
   justify-content: space-between;
-  margin-left: -15px;
+  padding: 5px;
+  margin: auto;
 }
+.footerbar ul:hover{
+  text-decoration: underline;
+}
+
 .footer-right ul li, .footer-left ul li{
   list-style: none; 
   margin-right: 10px;
-  font-family: "roboto", sans-serif;
-  font-size: 14px;
 }
