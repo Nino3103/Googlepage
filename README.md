@@ -1,1 +1,3 @@
 # Googlepage
+# Contributeurs en pair-programming : Sylvain Comelli / Jean Gilardo 
+# Attention à ne pas se faire Rickroller... 
