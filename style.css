@@ -1,0 +1,35 @@
+/* NAV BAR */
+.navbar {
+  height: 50px;
+  font-family: monospace;
+}
+
+ul {
+font-family: "roboto", sans-serif;
+font-size: 14px;
+font-weight: 400;
+display : flex ;
+list-style: none ;
+justify-content : flex-end;
+align-content: space-between;
+}
+
+.navitems {
+margin: 0px  10px;
+align-items : center;
+}
+
+.navicon {
+  color: black; /* changer la couleur en noir*/
+}
+
+button {
+  background-color: #4385F7 ;
+  border-radius: 2px;
+  border : none ;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold ;
+}
